@@ -1,0 +1,80 @@
+a:hover {
+  text-decoration: none;
+}
+.nav .logo {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 32px;
+  color: #1c99dd;
+}
+.header {
+  background-image: url(../svg/slide_bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header__title {
+  margin-top: 4.125rem;
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  color: #183b56;
+}
+.header__detail {
+  margin-top: 1.5rem;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  color: #5a7184;
+  width: 75%;
+}
+.header__btn {
+  margin-top: 1.5rem;
+}
+.header__link {
+  margin-top: 2rem;
+}
+.header__scroll {
+  margin-top: 7.125rem;
+  margin-bottom: 1.75rem;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #5a7184;
+}
+
+@media screen and (min-width: 500px) {
+  .header__mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    display: none;
+  }
+  .nav {
+    display: none;
+  }
+
+  .header__mobile {
+    background-image: url(../svg/iPhone_bg.svg);
+    background-repeat: no-repeat;
+    height: 850px;
+    background-size: cover;
+  }
+  .mobile {
+    width: 237px;
+    height: 474px;
+    margin: 0 auto;
+    padding-top: 495px;
+  }
+}
