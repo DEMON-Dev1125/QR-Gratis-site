@@ -99,11 +99,21 @@
   .footer__section {
     padding-top: 3rem;
   }
+  .footer__title {
+    font-size: 27px;
+    line-height: 30px;
+  }
+  .footer__describe {
+    font-size: 15px;
+    line-height: 25px;
+  }
   .footer__up {
     background-image: url(../svg/phone_rockapp_bg.svg);
     background-size: cover;
     height: auto;
     padding-bottom: 3rem;
+    margin-right: 15px;
+    margin-left: 15px;
   }
   .footer__down {
     margin-top: 0;
@@ -113,7 +123,7 @@
     font-family: "Open Sans";
     font-style: normal;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 20px;
     color: #183b56;
   }
